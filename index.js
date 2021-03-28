@@ -1,17 +1,5 @@
 const app = require('./lib');
 
-app.use((req, res, next) => {
-  console.log('global middleware');
-  next();
-});
+app.get('/', (req, res) => res.send('Hello world'));
 
-const middleware = (req, res, next) => {
-  console.log('m1 init');
-  next();
-};
-
-app.get('/', middleware, (req, res) => {
-  res.send('first working');
-});
-
-app.listen().then(() => console.log('server is up at port 3000'));
+app.listen(3000).then(() => console.log('server is up'));

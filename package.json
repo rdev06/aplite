@@ -1,6 +1,6 @@
 {
   "name": "aplite",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "this is a light weight framework for making http apis",
   "main": "index.js",
   "scripts": {
