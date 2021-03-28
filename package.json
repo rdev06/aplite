@@ -1,0 +1,13 @@
+{
+  "name": "aplite",
+  "version": "1.0.0",
+  "description": "this is a light weight framework for making http apis",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Roshan Dev",
+  "license": "ISC"
+}
